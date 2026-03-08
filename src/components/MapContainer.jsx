@@ -45,10 +45,10 @@ const MapContainer = ({ sites, onSiteSelect, selectedSite }) => {
         zoomControl={false}
         className="glamping-map"
       >
-        {/* Using a beautiful, clean map tile */}
+        {/* Using CARTO Voyager for a nice soft colorful style with blue water */}
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
         />
         
         {sites.map((site) => (
