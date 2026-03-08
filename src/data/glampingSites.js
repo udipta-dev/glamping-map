@@ -822,5 +822,62 @@ export const glampingSites = [
     priceRange: "$$$$$",
     website: "https://www.kachilodge.com/",
     imageUrl: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+
+  // --- HAWAII (Guided Addition) ---
+  {
+    id: 'camp-olowalu-maui',
+    name: "Camp Olowalu Tentalows",
+    location: "Maui, Hawaii, USA",
+    coordinates: [20.8091, -156.6234],
+    description: "Upscale beachfront 'Tentalows' offering a serene, disconnected atmosphere perfect for stargazing and waking up to the gentle sounds of the Pacific Ocean.",
+    bestTime: "April to May, September to November",
+    priceRange: "$$$",
+    website: "https://campolowalu.com/",
+    imageUrl: "https://images.unsplash.com/photo-1542382257-80da9fb9f5abc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'sun-farm-hawaii-oahu',
+    name: "Sun Farm Hawaii @ Koko Head",
+    location: "Oahu, Hawaii, USA",
+    coordinates: [21.2825, -157.6974],
+    description: "A highly unique luxury glamping experience situated on a working botanical farm, offering stunning island sunsets and fresh, gentle sea breezes.",
+    bestTime: "September to November",
+    priceRange: "$$$",
+    website: "https://www.hipcamp.com/en-US/hawaii/sun-farm-hawaii-koko-head",
+    imageUrl: "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'kauai-rooftop-campers',
+    name: "Kauai Rooftop Campers",
+    location: "Kauai, Hawaii, USA",
+    coordinates: [22.2036, -159.4061],
+    description: "Premium overland glamping vehicles fully equipped with plush queen-size beds and luxury camping gear to explore the rugged beauty of the Garden Isle.",
+    bestTime: "September to December",
+    priceRange: "$$$",
+    website: "https://kauairooftopcampers.com/",
+    imageUrl: "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'keola-retreat-big-island',
+    name: "Keola Retreat",
+    location: "Naalehu, Big Island, Hawaii, USA",
+    coordinates: [19.0632, -155.5861],
+    description: "An off-grid luxury dome tent experience located near South Point, featuring a private full bathroom and a spectacular outdoor concrete bathtub for stargazing.",
+    bestTime: "January to May",
+    priceRange: "$$$",
+    website: "https://www.airbnb.com/rooms/keola-retreat",
+    imageUrl: "https://images.unsplash.com/photo-1518182170546-076616fdcefa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'gingerhill-farm-hawaii',
+    name: "Gingerhill Farm Retreat",
+    location: "Kealakekua, Big Island, Hawaii, USA",
+    coordinates: [19.5286, -155.9220],
+    description: "An immersive eco-retreat offering holistic wellness and luxurious cabins nestled in a lush food forest overlooking the pristine Kealakekua Bay.",
+    bestTime: "September to November",
+    priceRange: "$$$",
+    website: "https://gingerhillfarm.com/",
+    imageUrl: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   }
 ];
