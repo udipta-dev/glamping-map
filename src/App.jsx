@@ -10,6 +10,9 @@ function App() {
   return (
     <div className="app-layout">
       <WelcomeModal />
+      <div className="app-logo-container">
+        <img src="/logo.jpg" alt="Glamping Map Logo" className="app-logo" />
+      </div>
       <main className="main-content">
         <MapContainer 
           sites={glampingSites} 

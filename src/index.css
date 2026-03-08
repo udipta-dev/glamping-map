@@ -68,3 +68,25 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: var(--shadow-soft);
 }
+
+/* App Logo */
+.app-logo-container {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  z-index: 1000; /* Above the map */
+}
+
+.app-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-bg);
+  box-shadow: var(--shadow-strong);
+  transition: transform var(--transition-smooth);
+}
+
+.app-logo:hover {
+  transform: scale(1.05);
+}

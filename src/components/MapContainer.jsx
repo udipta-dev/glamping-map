@@ -45,10 +45,10 @@ const MapContainer = ({ sites, onSiteSelect, selectedSite }) => {
         zoomControl={false}
         className="glamping-map"
       >
-        {/* Using Stadia Maps (Stamen Terrain style) for physical geography with soft blending colors */}
+        {/* Using Esri NatGeo World Map for gorgeous physical geography styling without authentication issues */}
         <TileLayer
-          attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-          url="https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}{r}.png"
+          attribution='Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC'
+          url="https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}"
         />
         
         {sites.map((site) => (
