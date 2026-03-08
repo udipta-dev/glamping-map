@@ -982,5 +982,62 @@ export const glampingSites = [
     priceRange: "$$$",
     website: "https://www.dunes-insolites.com/",
     imageUrl: "https://images.unsplash.com/photo-1542382257-80da9fb9f5abc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+
+  // --- OCEANIA (Guided Addition) ---
+  {
+    id: 'longitude-131-australia',
+    name: "Longitude 131°",
+    location: "Uluru-Kata Tjuta, Australia",
+    coordinates: [-25.3444, 131.0369],
+    description: "Architecturally designed glamping tents offering unparalleled, uninterrupted views of the iconic Uluru directly from your luxurious bed.",
+    bestTime: "May to September",
+    priceRange: "$$$$$",
+    website: "https://longitude131.com.au/",
+    imageUrl: "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'reefsleep-whitsundays-australia',
+    name: "Reefsleep Whitsundays",
+    location: "Great Barrier Reef, Australia",
+    coordinates: [-19.7895, 149.2026],
+    description: "A completely unique coastal experience where guests sleep under the stars in deluxe canvas swags on a pontoon moored on the Great Barrier Reef.",
+    bestTime: "June to October",
+    priceRange: "$$$$",
+    website: "https://www.cruisewhitsundays.com/experiences/reefsleep/",
+    imageUrl: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'wild-canvas-waitomo-nz',
+    name: "Wild Canvas",
+    location: "Waitomo, New Zealand",
+    coordinates: [-38.2618, 175.1147],
+    description: "New Zealand's only 5-Star Qualmark Glamping Experience, offering ultimate privacy in luxurious canvas tents with private outdoor hot tubs.",
+    bestTime: "December to February",
+    priceRange: "$$$",
+    website: "https://wildcanvas.nz/",
+    imageUrl: "https://images.unsplash.com/photo-1533514114760-4389f572ae26?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'valley-views-glamping-nz',
+    name: "Valley Views Glamping",
+    location: "Waitaki Valley, New Zealand",
+    coordinates: [-44.6653, 170.8385],
+    description: "Sleep under the spectacular South Island stars in luxury geodesic bubble domes featuring king-sized beds, ensuites, and breathtaking valley vistas.",
+    bestTime: "November to March",
+    priceRange: "$$$",
+    website: "https://valleyviews.co.nz/",
+    imageUrl: "https://images.unsplash.com/photo-1518182170546-076616fdcefa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'serenity-sands-fiji',
+    name: "Serenity Sands Glamping",
+    location: "Serenity Island, Fiji",
+    coordinates: [-17.6541, 177.1232],
+    description: "Barefoot luxury at its finest. Ten secluded eco-conscious glamping villas situated on a private island, featuring sea views and private decks.",
+    bestTime: "May to October",
+    priceRange: "$$$$",
+    website: "https://www.serenitysands.com.fj/",
+    imageUrl: "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   }
 ];
