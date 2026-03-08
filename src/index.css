@@ -1,0 +1,70 @@
+:root {
+  /* Soft, organic travel-themed color palette */
+  --color-primary: #2C4A3B; /* Deep Forest Green */
+  --color-primary-light: #4A7A62;
+  --color-accent: #D4A373; /* Warm Sand / Terracotta */
+  --color-accent-hover: #E6BE8A;
+  --color-bg: #FDFCF0; /* Warm Off-white / Cream */
+  --color-bg-glass: rgba(253, 252, 240, 0.85);
+  --color-text: #2A2A2A;
+  --color-text-light: #5A5A5A;
+  
+  --shadow-soft: 0 10px 30px rgba(44, 74, 59, 0.1);
+  --shadow-strong: 0 20px 40px rgba(0, 0, 0, 0.15);
+  
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 8px;
+
+  --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* App Layout */
+.app-layout {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  position: relative;
+  display: flex;
+}
+
+.placeholder-map {
+  width: 100%;
+  height: 100%;
+  background-color: #EAE6D7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+
+/* Glassmorphism Classes for reuse */
+.glass-panel {
+  background: var(--color-bg-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: var(--shadow-soft);
+}

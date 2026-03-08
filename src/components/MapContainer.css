@@ -1,0 +1,56 @@
+.map-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.glamping-map {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg); /* Map background before tiles load */
+}
+
+/* Custom Marker Styling */
+.custom-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marker-dot {
+  width: 18px;
+  height: 18px;
+  background-color: var(--color-accent);
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: var(--shadow-strong);
+  transition: var(--transition-smooth);
+  cursor: pointer;
+}
+
+.marker-dot:hover {
+  transform: scale(1.3);
+  background-color: var(--color-accent-hover);
+}
+
+.marker-dot.selected {
+  transform: scale(1.5);
+  background-color: var(--color-primary);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 4px rgba(212, 163, 115, 0.3);
+}
+
+/* Hide leaflet attribution nicely */
+.leaflet-control-attribution {
+  background: var(--color-bg-glass) !important;
+  color: var(--color-text-light) !important;
+  padding: 4px 8px !important;
+  border-top-left-radius: var(--radius-sm);
+  backdrop-filter: blur(8px);
+}
+.leaflet-control-attribution a {
+  color: var(--color-primary) !important;
+}
