@@ -537,5 +537,40 @@ export const glampingSites = [
     priceRange: "$$$$",
     website: "https://shelter-dome.com/",
     imageUrl: "https://images.unsplash.com/photo-1506544777-628461db1d65?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  
+  // --- MEXICO (Guided Addition) ---
+  {
+    id: 'playa-viva-mexico',
+    name: "Playa Viva",
+    location: "Zihuatanejo, Mexico",
+    coordinates: [17.5312, -101.4429],
+    description: "An eco-conscious luxury resort featuring iconic oceanfront treehouses shaped like manta ray wings and an on-site sea turtle sanctuary.",
+    bestTime: "November to April",
+    priceRange: "$$$$$",
+    website: "https://www.playaviva.com/",
+    imageUrl: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'campera-hotel-mexico',
+    name: "Campera Hotel Burbuja",
+    location: "Valle de Guadalupe, Mexico",
+    coordinates: [32.0620, -116.5925],
+    description: "Sleep under the stars in state-of-the-art bubble suites completely surrounded by the working vineyards of Mexico's premier wine country.",
+    bestTime: "August to October",
+    priceRange: "$$$$",
+    website: "https://camperahotel.com/",
+    imageUrl: "https://images.unsplash.com/photo-1542382257-80da9fb9f5abc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'nativus-tulum-mexico',
+    name: "Nativus Glamping & Cenote",
+    location: "Tulum, Mexico",
+    coordinates: [20.1554, -87.4699],
+    description: "A sustainable glamping community nestled in the Mayan jungle, boasting a private cenote crystal-clear swimming hole with kayaks and paddleboards.",
+    bestTime: "December to April",
+    priceRange: "$$$",
+    website: "https://nativustulum.com/",
+    imageUrl: "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   }
 ];
