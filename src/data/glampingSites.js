@@ -1039,5 +1039,40 @@ export const glampingSites = [
     priceRange: "$$$$",
     website: "https://www.serenitysands.com.fj/",
     imageUrl: "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+
+  // --- MIDDLE EAST (Guided Addition) ---
+  {
+    id: 'banyan-tree-alula-saudi',
+    name: "Banyan Tree AlUla",
+    location: "Ashar Valley, AlUla, Saudi Arabia",
+    coordinates: [26.7438, 37.8497],
+    description: "Opulent tented villas nestled within the dramatic sandstone cliffs and canyons of AlUla, offering private plunge pools and ultimate desert tranquility.",
+    bestTime: "October to March",
+    priceRange: "$$$$$",
+    website: "https://www.banyantree.com/saudi-arabia/alula",
+    imageUrl: "https://images.unsplash.com/photo-1695507724213-df46cc0ef6e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'desert-nights-oman',
+    name: "Desert Nights Resort",
+    location: "Wahiba Sands, Oman",
+    coordinates: [22.3989, 58.7221],
+    description: "Luxurious Bedouin-style tents situated deep within the spectacular golden dunes of the Omani desert, providing an authentic luxury Arabian adventure.",
+    bestTime: "October to April",
+    priceRange: "$$$",
+    website: "https://omanhotels.com/desertnightsresort/",
+    imageUrl: "https://images.unsplash.com/photo-1540960586940-d9d30009c91f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'al-maha-dubai-uae',
+    name: "Al Maha Desert Resort & Spa",
+    location: "Dubai Desert Conservation Reserve, UAE",
+    coordinates: [24.8277, 55.6666],
+    description: "The gold standard of desert luxury, featuring exquisite Bedouin Suites with private infinity pools and views of roaming oryx and gazelles.",
+    bestTime: "November to March",
+    priceRange: "$$$$$",
+    website: "https://www.marriott.com/en-us/hotels/dxbam-al-maha-a-luxury-collection-desert-resort-and-spa-dubai/overview/",
+    imageUrl: "https://images.unsplash.com/photo-1533222481259-ce20eda1e20b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   }
 ];
