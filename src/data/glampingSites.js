@@ -662,5 +662,51 @@ export const glampingSites = [
     priceRange: "$$$$",
     website: "https://www.isletazopango.com/",
     imageUrl: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  
+  // --- NORTHERN SOUTH AMERICA (Guided Addition) ---
+  {
+    id: 'bosko-guatape-colombia',
+    name: "Bosko",
+    location: "Guatapé, Colombia",
+    coordinates: [6.2415, -75.1481],
+    description: "Adults-only luxury 'mush-rooms' designed as igloos on floatable platforms overlooking the stunning Guatapé dam and forest, featuring a spectacular sky pool.",
+    bestTime: "December to March, July to August",
+    priceRange: "$$$",
+    website: "https://bosko.com.co/",
+    imageUrl: "https://images.unsplash.com/photo-1518182170546-076616fdcefa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'aguamiel-glamping-venezuela',
+    name: "Aguamiel Glamping",
+    location: "Páramo La Laja, Táchira, Venezuela",
+    coordinates: [7.8247, -72.2858],
+    description: "A 5-star mountain accommodation nestled in the magical Andean páramos. Offers private luxury domed units with Alexa, fireplaces, and sweeping mountain views.",
+    bestTime: "December to April",
+    priceRange: "$$$",
+    website: "https://www.instagram.com/aguamiel_glamping/",
+    imageUrl: "https://images.unsplash.com/photo-1444201716565-92c906de394e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'seliba-river-suriname',
+    name: "Seliba River Glamping",
+    location: "Suriname River, Suriname",
+    coordinates: [5.2890, -54.9818],
+    description: "Set on a former cocoa plantation deep in the Surinamese jungle. Sleep in well-appointed luxury tipi tents and wake to the ambient sounds of howler monkeys.",
+    bestTime: "February to April, August to November",
+    priceRange: "$$$",
+    website: "https://selibariverglamping.com/",
+    imageUrl: "https://images.unsplash.com/photo-1533514114760-4389f572ae26?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'experience-guyana-glamping',
+    name: "Guyana Safari Tentalows",
+    location: "Rupununi Savannah, Guyana",
+    coordinates: [3.3551, -59.3905],
+    description: "Deluxe, remote safari tentalows providing a magical, off-the-beaten-path wilderness escape combined with gourmet dining and starry serenades.",
+    bestTime: "September to April",
+    priceRange: "$$$",
+    website: "https://experienceguyana.com/",
+    imageUrl: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   }
 ];
