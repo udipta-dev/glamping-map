@@ -572,5 +572,95 @@ export const glampingSites = [
     priceRange: "$$$",
     website: "https://nativustulum.com/",
     imageUrl: "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+
+  // --- CENTRAL AMERICA (Guided Addition) ---
+  {
+    id: 'nayara-tented-camp-costa-rica',
+    name: "Nayara Tented Camp",
+    location: "Arenal Volcano National Park, Costa Rica",
+    coordinates: [10.4632, -84.7032],
+    description: "One of Costa Rica's most luxurious experiences. Air-conditioned safari tents with spectacular volcano views, private plunge pools fed by hot springs, and outdoor showers.",
+    bestTime: "December to April",
+    priceRange: "$$$$$",
+    website: "https://nayaratentedcamp.com/",
+    imageUrl: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'isla-chiquita-costa-rica',
+    name: "Isla Chiquita Glamping Resort",
+    location: "Gulf of Nicoya, Costa Rica",
+    coordinates: [9.8167, -84.9080],
+    description: "An exclusive island glamping experience accessible only by boat. Premium tents feature spacious open-air decks with sweeping gulf views and sustainable luxury.",
+    bestTime: "December to April",
+    priceRange: "$$$$",
+    website: "https://www.islachiquitacostarica.com/",
+    imageUrl: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'blancaneaux-lodge-belize',
+    name: "Blancaneaux Lodge",
+    location: "Mountain Pine Ridge Reserve, Belize",
+    coordinates: [17.0270, -88.9701],
+    description: "Owned by Francis Ford Coppola, this luxury resort is tucked away in the jungle canopy featuring spectacular waterfalls, turquoise pools, and upscale cabanas.",
+    bestTime: "Late November to mid-April",
+    priceRange: "$$$$$",
+    website: "https://thefamilycoppolahideaways.com/en/blancaneaux-lodge",
+    imageUrl: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'acatenango-glamping-guatemala',
+    name: "Acatenango Volcano Glamping",
+    location: "Acatenango, Guatemala",
+    coordinates: [14.5020, -90.8757],
+    description: "An unparalleled adventure camping at 3,548 meters. Heated canvas tents with wood-burning stoves and direct views of the actively erupting Fuego Volcano.",
+    bestTime: "November to April",
+    priceRange: "$$$",
+    website: "https://www.noma-travel.com/",
+    imageUrl: "https://images.unsplash.com/photo-1520330005708-62a26514f7b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'alaya-panama',
+    name: "Alaya Panama",
+    location: "Playa Venao, Panama",
+    coordinates: [7.4330, -80.1982],
+    description: "A domed glamping wellness resort offering geodesic domes with AC, outdoor terraces with stargazing nets, and an infinity pool facing the ocean.",
+    bestTime: "December to April",
+    priceRange: "$$$$",
+    website: "https://www.alayapanama.com/",
+    imageUrl: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'tiny-pines-honduras',
+    name: "Tiny Pines Glamping",
+    location: "Comayagua, Honduras",
+    coordinates: [14.4539, -87.6375],
+    description: "Nestled in the mountains featuring luxury geodesic domes and chalets with private jacuzzis, outdoor fire pits, and mountain views.",
+    bestTime: "November to May",
+    priceRange: "$$$",
+    website: "https://hondurasglamping.com/",
+    imageUrl: "https://images.unsplash.com/photo-1533514114760-4389f572ae26?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'kafen-glamping-el-salvador',
+    name: "Kafen Glamping Experience",
+    location: "Juayúa, El Salvador",
+    coordinates: [13.8441, -89.7441],
+    description: "Immersive luxury glamping immersed deep within coffee plantations along the famous Ruta de las Flores. Sleep in tiny houses, bubbles, or domes.",
+    bestTime: "November to April",
+    priceRange: "$$$",
+    website: "https://hotelkafen.com/",
+    imageUrl: "https://images.unsplash.com/photo-1444201716565-92c906de394e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'zopango-island-nicaragua',
+    name: "Zopango Private Island",
+    location: "Lake Nicaragua, Granada, Nicaragua",
+    coordinates: [11.8986, -85.8755],
+    description: "A sustainable private island retreat offering serene glamping alongside gentle lake breezes, abundant tropical wildlife, and a sandy beach.",
+    bestTime: "November to April",
+    priceRange: "$$$$",
+    website: "https://www.isletazopango.com/",
+    imageUrl: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   }
 ];
