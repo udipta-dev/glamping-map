@@ -879,5 +879,62 @@ export const glampingSites = [
     priceRange: "$$$",
     website: "https://gingerhillfarm.com/",
     imageUrl: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+
+  // --- CENTRAL ASIA & MONGOLIA (Guided Addition) ---
+  {
+    id: 'three-camel-lodge-mongolia',
+    name: "Three Camel Lodge",
+    location: "Gobi Desert, Mongolia",
+    coordinates: [44.2000, 103.5500],
+    description: "A breathtaking luxury ger camp in the vast Gobi Desert, handcrafted with traditional materials and offering a pristine exploration of nomadic culture.",
+    bestTime: "June to September",
+    priceRange: "$$$$$",
+    website: "https://www.threecamellodge.com/",
+    imageUrl: "https://images.unsplash.com/photo-1549880181-56a44cf4a9a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'supara-chunkurchak-kyrgyzstan',
+    name: "Supara Chunkurchak Resort",
+    location: "Chunkurchak Valley, Kyrgyzstan",
+    coordinates: [42.6625, 74.6186],
+    description: "Luxury yurt stays featuring panoramic views of snow-capped peaks and the lush mountain valley, beautifully combining Kyrgyz heritage with modern comfort.",
+    bestTime: "June to September",
+    priceRange: "$$$",
+    website: "https://supara.kg/",
+    imageUrl: "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'trekking-club-kazakhstan',
+    name: "Trekking Club Camp",
+    location: "Turgen Gorge, Kazakhstan",
+    coordinates: [43.1901, 77.6830],
+    description: "One of the premier glamping sites in Central Asia offering comfortable safari tents amidst deep pine forests, along with a wood-fired Scythian sauna.",
+    bestTime: "May to October",
+    priceRange: "$$$",
+    website: "https://trekking-club.com/",
+    imageUrl: "https://images.unsplash.com/photo-1510312305653-8ed496efae75?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'sayyod-yurt-camp-uzbekistan',
+    name: "Sayyod Yurt Camp",
+    location: "Nuratau Mountains, Uzbekistan",
+    coordinates: [40.5847, 66.8601],
+    description: "An authentic, highly-rated Uzbek luxury yurt experience tucked into the mountains, offering incredible stargazing, hiking, and traditional cuisine.",
+    bestTime: "April to May, September to October",
+    priceRange: "$$$",
+    website: "https://www.booking.com/hotel/uz/sayyod-yurt-camp-uzbek-yurt-experience.html",
+    imageUrl: "https://images.unsplash.com/photo-1524823861298-54ced755d549?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'paramount-journey-camp-tajikistan',
+    name: "Paramount Journey Glamping",
+    location: "Fann Mountains, Tajikistan",
+    coordinates: [39.1246, 68.1633],
+    description: "Fully-supported luxury mobile bell tent camps that immerse guests deep within the magnificent, jagged peaks of the majestic Fann Mountains.",
+    bestTime: "June to September",
+    priceRange: "$$$$",
+    website: "https://paramountjourney.com/",
+    imageUrl: "https://images.unsplash.com/photo-1542382257-80da9fb9f5abc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   }
 ];
