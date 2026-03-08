@@ -1,0 +1,116 @@
+.welcome-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.welcome-modal {
+  background: var(--color-bg);
+  width: 90%;
+  max-width: 450px;
+  border-radius: var(--radius-lg);
+  padding: 40px 32px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.2);
+  transform: translateY(20px);
+  animation: slideUp 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+.close-welcome-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  color: var(--color-text-light);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+}
+
+.close-welcome-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--color-text);
+  transform: rotate(90deg);
+}
+
+.welcome-icon-wrapper {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px auto;
+  box-shadow: 0 10px 20px rgba(44, 74, 59, 0.2);
+}
+
+.welcome-title {
+  color: var(--color-primary);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.welcome-text {
+  color: var(--color-text-light);
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin-bottom: 32px;
+}
+
+.welcome-cta-btn {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  border: none;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 100%;
+  transition: var(--transition-smooth);
+  box-shadow: 0 4px 15px rgba(44, 74, 59, 0.2);
+}
+
+.welcome-cta-btn:hover {
+  background-color: var(--color-primary-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(44, 74, 59, 0.3);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
