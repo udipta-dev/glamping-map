@@ -708,5 +708,62 @@ export const glampingSites = [
     priceRange: "$$$",
     website: "https://experienceguyana.com/",
     imageUrl: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+
+  // --- EASTERN USA (Guided Addition) ---
+  {
+    id: 'under-canvas-acadia-usa',
+    name: "Under Canvas Acadia",
+    location: "Surry, Maine, USA",
+    coordinates: [44.4928, -68.4216],
+    description: "Safari-style canvas tents featuring West Elm furnishings, wood-burning stoves, and organic toiletries set on a breathtaking coastal waterfront near Acadia National Park.",
+    bestTime: "May to October",
+    priceRange: "$$$$",
+    website: "https://www.undercanvas.com/camps/acadia/",
+    imageUrl: "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'autocamp-cape-cod-usa',
+    name: "AutoCamp Cape Cod",
+    location: "Falmouth, Massachusetts, USA",
+    coordinates: [41.5791, -70.6186],
+    description: "A luxury beachside retreat where guests sleep in iconic, custom-designed Airstreams featuring spa-inspired spa bathrooms and modern kitchenettes.",
+    bestTime: "May to September",
+    priceRange: "$$$$",
+    website: "https://autocamp.com/cape-cod/",
+    imageUrl: "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'asheville-glamping-usa',
+    name: "The Dome at Asheville Glamping",
+    location: "Asheville, North Carolina, USA",
+    coordinates: [35.5951, -82.5515],
+    description: "A wildly romantic geodesic dome providing an Appalachian Mountain backdrop. Features spectacular oversized bay windows for indoor stargazing and a private hot tub.",
+    bestTime: "September to November",
+    priceRange: "$$$",
+    website: "https://www.ashevilleglamping.com/",
+    imageUrl: "https://images.unsplash.com/photo-1518182170546-076616fdcefa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'little-raccoon-key-usa',
+    name: "Little Raccoon Key",
+    location: "Golden Isles, Georgia, USA",
+    coordinates: [31.0664, -81.4245],
+    description: "An incredibly exclusive private island glamping experience featuring memory foam beds, outdoor amenities, and the option for a dedicated chef-prepared meal.",
+    bestTime: "March to May, September to November",
+    priceRange: "$$$$$",
+    website: "https://www.littleraccoonkey.com/",
+    imageUrl: "https://images.unsplash.com/photo-1542382257-80da9fb9f5abc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'huttopia-white-mountains-usa',
+    name: "Huttopia White Mountains",
+    location: "Albany, New Hampshire, USA",
+    coordinates: [43.9610, -71.2173],
+    description: "A chic French-inspired glamping resort offering elevated safari tents nestled in a pine forest, complete with a heated saltwater pool and fresh crêpes.",
+    bestTime: "June to October",
+    priceRange: "$$$",
+    website: "https://canada-usa.huttopia.com/en/site/white-mountains/",
+    imageUrl: "https://images.unsplash.com/photo-1466840787022-48e0ec048c8a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   }
 ];
