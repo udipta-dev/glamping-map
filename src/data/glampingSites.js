@@ -765,5 +765,62 @@ export const glampingSites = [
     priceRange: "$$$",
     website: "https://canada-usa.huttopia.com/en/site/white-mountains/",
     imageUrl: "https://images.unsplash.com/photo-1466840787022-48e0ec048c8a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+
+  // --- ANDES & AMAZON (Guided Addition) ---
+  {
+    id: 'ecocamp-patagonia-chile',
+    name: "EcoCamp Patagonia",
+    location: "Torres del Paine, Chile",
+    coordinates: [-50.9672, -72.8805],
+    description: "Award-winning sustainable geodesic domes located at the very trailhead of the Torres Base, featuring ceiling windows for Patagonian stargazing.",
+    bestTime: "October to April",
+    priceRange: "$$$$$",
+    website: "https://www.ecocamp.travel/",
+    imageUrl: "https://images.unsplash.com/photo-1510312305653-8ed496efae75?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'chalten-camp-argentina',
+    name: "Chaltén Camp",
+    location: "El Chaltén, Argentina",
+    coordinates: [-49.3243, -72.8841],
+    description: "Exclusive luxury domes near Los Glaciares National Park with wood-burning stoves and panoramic, completely unobstructed views of Mount Fitz Roy.",
+    bestTime: "November to March",
+    priceRange: "$$$$",
+    website: "https://chaltencamp.com/",
+    imageUrl: "https://images.unsplash.com/photo-1549880181-56a44cf4a9a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'amazon-emotions-brazil',
+    name: "Amazon Glamping by Amazon Emotions",
+    location: "Terrafloresta Reserve, Brazil",
+    coordinates: [-2.1818, -59.5491],
+    description: "A pioneering eco-luxury experience deep in the Amazon rainforest featuring bespoke nomadic tented camps with hot showers and transformative wildlife safaris.",
+    bestTime: "June to November",
+    priceRange: "$$$$$",
+    website: "https://amazonemotions.com/",
+    imageUrl: "https://images.unsplash.com/photo-1629853381622-c277bc1b6fb8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'skylodge-adventure-peru',
+    name: "Skylodge Adventure Suites",
+    location: "Sacred Valley, Peru",
+    coordinates: [-13.2662, -72.2618],
+    description: "For the ultimate thrill-seeker: transparent luxury pods suspended 1,300 feet up a cliff face accessed by rock climbing, offering 300° panoramic views.",
+    bestTime: "April to October",
+    priceRange: "$$$$",
+    website: "https://naturavive.com/",
+    imageUrl: "https://images.unsplash.com/photo-1524823861298-54ced755d549?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'kachi-lodge-bolivia',
+    name: "Kachi Lodge",
+    location: "Salar de Uyuni, Bolivia",
+    coordinates: [-20.0890, -67.7291],
+    description: "Geodesic domes resembling a space station set directly on the world's largest salt flats, featuring art by Gastón Ugalde and a state-of-the-art observatory.",
+    bestTime: "May to November",
+    priceRange: "$$$$$",
+    website: "https://www.kachilodge.com/",
+    imageUrl: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   }
 ];
