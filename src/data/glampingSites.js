@@ -936,5 +936,51 @@ export const glampingSites = [
     priceRange: "$$$$",
     website: "https://paramountjourney.com/",
     imageUrl: "https://images.unsplash.com/photo-1542382257-80da9fb9f5abc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+
+  // --- NORTH AFRICA (Guided Addition) ---
+  {
+    id: 'shahrazad-camp-egypt',
+    name: "Shahrazad Camp",
+    location: "White Desert, Egypt",
+    coordinates: [27.3190, 28.0039],
+    description: "Located deep in the glorious White Desert, offering luxurious Saharan tents with built-in hot water bathrooms and authentic Bedouin hospitality.",
+    bestTime: "October to April",
+    priceRange: "$$$",
+    website: "https://shahrazadcamp.com/",
+    imageUrl: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'remal-el-rayan-egypt',
+    name: "Remal El Rayan Glamp",
+    location: "Fayoum Oasis, Egypt",
+    coordinates: [29.1432, 30.3957],
+    description: "Egypt's first 5-star glamp featuring massive geodomes with private jacuzzis nestled amid the dunes near the picturesque Magic Lake.",
+    bestTime: "October to May",
+    priceRange: "$$$$",
+    website: "https://remalelrayan.com/",
+    imageUrl: "https://images.unsplash.com/photo-1533514114760-4389f572ae26?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'scarabeo-camp-morocco',
+    name: "Scarabeo Camp",
+    location: "Agafay Desert, Morocco",
+    coordinates: [31.4286, -8.1504],
+    description: "Perched on rocky dunes just outside Marrakech, offering elegant luxury tents with Moroccan salons, private terraces, and panoramic Atlas Mountain views.",
+    bestTime: "March to May, September to November",
+    priceRange: "$$$",
+    website: "https://www.scarabeocamp.com/",
+    imageUrl: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    id: 'dunes-insolites-tunisia',
+    name: "Dunes Insolites",
+    location: "Douz, Tunisia",
+    coordinates: [33.4665, 9.0206],
+    description: "Luxurious traditional Bedouin-inspired tents offering total desert immersion complete with camel treks, hot showers, and exceptional star-lit dining.",
+    bestTime: "October to April",
+    priceRange: "$$$",
+    website: "https://www.dunes-insolites.com/",
+    imageUrl: "https://images.unsplash.com/photo-1542382257-80da9fb9f5abc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
   }
 ];
